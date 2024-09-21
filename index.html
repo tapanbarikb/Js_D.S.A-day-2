@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- INSERT ELEMENT IN AN ARRAY -->
+
+    <!--Q== .Make array.define the position
+    .Use loop to insert new Element 
+    .insert element with text input and button 
+    .insert Element with by defauilt and button  -->
+
+    <h2>hiii</h2>
+    <!-- <input type="text" id="position" placeholder="enter position" />
+    <input type="text" id="newEl" placeholder="enter new Element" />
+    <button onclick="insertEl()">click</button> -->
+    
+    <script>
+        // its your logic
+      //   let data = [60, 30, 12, 10, 67, 30, 50];
+      //   let newEl = 70;
+      //   let position = 2;
+
+      //   for (i = data.length - 1; i >= 0; i--) {
+      //     console.log(data[i]);
+      //     if (i >= position) {
+      //       data[i + 1] = data[i];
+      //       if (i == position) {
+      //         data[i] = newEl;
+      //       }
+      //     }
+      //   }
+      //   console.log(data);
+
+      //2️⃣
+
+    //   function insertEl(){
+    //     let data = [60, 30, 12, 10, 67, 30];
+    //     let newEl = document.getElementById("newEl").value;
+    //     let position = document.getElementById("position").value;
+    //     for (i = data.length - 1; i >= 0; i++) {
+    //       if (i >= position) {
+    //         data[i + 1] = data[i];
+    //         if (i == position) {
+    //           data[i] = newEl;
+    //         }
+    //       }
+    //     }
+    //     console.log(data);
+        
+    //   }
+
+    //3️⃣
+    //js splice metned 
+    let data = [60, 30, 12, 10, 67, 30];
+
+    let newd= data.splice(2,0,100)
+
+     console.log(newd);
+     console.log(data);
+     
+     
+
+
+
+    </script>
+   
+  </body>
+</html>
